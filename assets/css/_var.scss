@@ -1,0 +1,115 @@
+@font-face {
+    font-family: 'Red Hat Display';
+    src: url('../fonts/font-web/RedHatDisplay-Regular.eot');
+    src: url('../fonts/font-web/RedHatDisplay-Regular.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/font-web/RedHatDisplay-Regular.woff2') format('woff2'),
+        url('../fonts/font-web/RedHatDisplay-Regular.woff') format('woff'),
+        url('../fonts/font-web/RedHatDisplay-Regular.ttf') format('truetype'),
+        url('../fonts/font-web/RedHatDisplay-Regular.svg#RedHatDisplay-Regular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+@font-face {
+    font-family: 'Red Hat Display';
+    src: url('../fonts/font-web/RedHatDisplay-Bold.eot');
+    src: url('../fonts/font-web/RedHatDisplay-Bold.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/font-web/RedHatDisplay-Bold.woff2') format('woff2'),
+        url('../fonts/font-web/RedHatDisplay-Bold.woff') format('woff'),
+        url('../fonts/font-web/RedHatDisplay-Bold.ttf') format('truetype'),
+        url('../fonts/font-web/RedHatDisplay-Bold.svg#RedHatDisplay-Bold') format('svg');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+@font-face {
+    font-family: 'Red Hat Display';
+    src: url('../fonts/font-web/RedHatDisplay-Medium.eot');
+    src: url('../fonts/font-web/RedHatDisplay-Medium.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/font-web/RedHatDisplay-Medium.woff2') format('woff2'),
+        url('../fonts/font-web/RedHatDisplay-Medium.woff') format('woff'),
+        url('../fonts/font-web/RedHatDisplay-Medium.ttf') format('truetype'),
+        url('../fonts/font-web/RedHatDisplay-Medium.svg#RedHatDisplay-Medium') format('svg');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+
+
+@font-face {
+    font-family: 'Red Hat Display';
+    src: url('../fonts/font-web/RedHatDisplay-ExtraBold.eot');
+    src: url('../fonts/font-web/RedHatDisplay-ExtraBold.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/font-web/RedHatDisplay-ExtraBold.woff2') format('woff2'),
+        url('../fonts/font-web/RedHatDisplay-ExtraBold.woff') format('woff'),
+        url('../fonts/font-web/RedHatDisplay-ExtraBold.ttf') format('truetype'),
+        url('../fonts/font-web/RedHatDisplay-ExtraBold.svg#RedHatDisplay-ExtraBold') format('svg');
+    font-weight: 800;
+    font-style: normal;
+    font-display: swap;
+}
+
+$fontFamily: 'Red Hat Display', Arial;
+
+$clBlue: #1C3144;
+$clPink: #F3397D;
+$clOrange: #FF9153;
+$clGray: #F5F5F5;
+$clBody: #506271;
+$clWhite: #FFFF;
+
+
+.fs-60{
+    font-size: 60px;
+    line-height: 76px;
+}
+.fs-20{
+    font-size: 20px;
+}
+.fs-26{
+    font-size: 26px;
+}
+.fs-24{
+    font-size: 24px;
+}
+.fs-18{
+    font-size: 18px;
+}
+.fs-16{
+    font-size: 16px;
+}
+.fs-28{
+    font-size: 28px;
+}
+.fw-extra{
+    font-weight: 800;
+}
+.cl-gradient{
+    background: linear-gradient(180deg, #F3397D 0%, #FF9153 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    text-fill-color: transparent;
+}
+.cl-blue{
+    color: $clBlue;
+}
+.cl-white{
+    color: $clWhite;
+}
+
+.lh-44{
+    line-height: 44px;
+}
+.lh-28{
+    line-height: 28px;
+}
+.lh-76{
+    line-height: 76px;
+}
+.lh-26{
+    line-height: 26px;
+}
+.lh-36{
+    line-height: 36px;
+}

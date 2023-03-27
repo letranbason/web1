@@ -1,0 +1,39 @@
+@font-face {
+    font-family: 'Red Hat Display';
+    src: url('RedHatDisplay-Regular.eot');
+    src: url('RedHatDisplay-Regular.eot?#iefix') format('embedded-opentype'),
+        url('RedHatDisplay-Regular.woff2') format('woff2'),
+        url('RedHatDisplay-Regular.woff') format('woff'),
+        url('RedHatDisplay-Regular.ttf') format('truetype'),
+        url('RedHatDisplay-Regular.svg#RedHatDisplay-Regular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Red Hat Display';
+    src: url('RedHatDisplay-Bold.eot');
+    src: url('RedHatDisplay-Bold.eot?#iefix') format('embedded-opentype'),
+        url('RedHatDisplay-Bold.woff2') format('woff2'),
+        url('RedHatDisplay-Bold.woff') format('woff'),
+        url('RedHatDisplay-Bold.ttf') format('truetype'),
+        url('RedHatDisplay-Bold.svg#RedHatDisplay-Bold') format('svg');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Red Hat Display';
+    src: url('RedHatDisplay-ExtraBold.eot');
+    src: url('RedHatDisplay-ExtraBold.eot?#iefix') format('embedded-opentype'),
+        url('RedHatDisplay-ExtraBold.woff2') format('woff2'),
+        url('RedHatDisplay-ExtraBold.woff') format('woff'),
+        url('RedHatDisplay-ExtraBold.ttf') format('truetype'),
+        url('RedHatDisplay-ExtraBold.svg#RedHatDisplay-ExtraBold') format('svg');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
