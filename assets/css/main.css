@@ -438,12 +438,10 @@ body .btn.btn-gradient i {
   padding-top: 64px;
 }
 
-#imgbetween {
-  margin-left: 60%;
-}
-
 #casestudy_site {
-  padding: 30px 0 80px 0;
+  padding: 80px 0;
+  background-color: #F5F5F5;
+  position: relative;
 }
 #casestudy_site .title {
   margin-bottom: 12px;
@@ -470,14 +468,21 @@ body .btn.btn-gradient i {
   border: 0;
   padding: 30% 0;
 }
+#casestudy_site .seeall h3 {
+  transform: translate(-50%, 50%);
+}
+#casestudy_site .seeall img {
+  transform: translate(95px, -45px);
+}
 #casestudy_site img {
   padding: 0 5%;
 }
 #casestudy_site img {
   padding-top: 10%;
 }
-#casestudy_site p {
+#casestudy_site h3 {
   padding-left: 5%;
+  padding-top: 5%;
 }
 
 #result {
@@ -513,6 +518,9 @@ body .btn.btn-gradient i {
 }
 #result .content {
   transform: translate(15%, -20%);
+}
+#result .img {
+  margin-left: 60%;
 }
 
 #partner2 .partner_slider2 {
@@ -582,19 +590,34 @@ body .btn.btn-gradient i {
 #finalpage_site {
   padding: 80px 0;
 }
-#finalpage_site .picture {
-  position: relative;
+#finalpage_site .box-email {
+  background: #fff;
+  border-radius: 24px;
+  width: 40%;
+  position: absolute;
+  transform: translate(-20%, 30%);
+  padding: 10px;
+  box-shadow: 0px 6px 32px rgba(17, 31, 43, 0.12);
 }
-#finalpage_site .box {
-  width: 100%;
-  background: red;
+#finalpage_site .box-email .below {
+  padding: 50px 20px;
+}
+#finalpage_site .box-email .below .formSubcribe .button1 {
+  position: relative;
+  border: 1px solid;
   border-radius: 32px;
-  position: relative;
+  height: 60px;
+  width: 100%;
+  padding: 0 15px;
 }
-#finalpage_site .box::after {
-  content: "";
-  display: block;
-  padding-bottom: 80%;
+#finalpage_site .box-email .below .formSubcribe .button2 {
+  position: absolute;
+  transform: translate(-102%, 3%);
+  background: linear-gradient(180deg, #F3397D 0%, #FF9153 100%);
+  border-radius: 32px;
+  color: white;
+  height: 56px;
+  width: 20%;
 }
 
 #footer_site {
@@ -604,5 +627,8 @@ body .btn.btn-gradient i {
 }
 #footer_site p {
   color: #84939E;
+  padding: 32px 0;
+}
+#footer_site p1 {
   padding: 32px 0;
 }/*# sourceMappingURL=main.css.map */
