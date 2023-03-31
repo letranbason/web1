@@ -318,12 +318,17 @@ body{
             }
         }
 
+    }
+    .imglines{
+        .img-fluid{
+            position: absolute;
+            bottom: 0;
+            left: 0;
+            transform: translate(0%,-100%);
+        }
     } 
 }
-#imglines {
-    position: absolute;
-    margin-bottom: auto;
-}
+
 
 #service_site{
     padding: 80px 0 0 0;
@@ -369,13 +374,17 @@ body{
         padding-top: 64px;
     }
 }
-#imgbetween {
-    
+.imgbetween {
+    padding: 80px 0;
+    .img-fluid{
+        margin-left: 70%;
+        position: absolute;
+    }
 }
 #casestudy_site {
     padding: 80px 0;
     background-color: $clGray;
-    position: relative;
+    position: revert;
     .title{
         margin-bottom: 12px;
         padding-left: 48px;
@@ -409,20 +418,19 @@ body{
             transform: translate(95px, -45px);
         }
     }
-    img{
-        padding: 0 5%;
-    }
-    img{
-        padding-top:10%;
-    }
-    h3{
-        padding-left: 5%; 
-        padding-top: 5%;
+    .list{
+        display: flex;
+        justify-content: space-evenly;
+        .item{
+            display: flex;
+            flex-direction: column;
+        }
     }
 
 }
 
 #result {
+    position: relative;
     padding: 80px 0 0 0;
     .title{
         margin-bottom: 12px;
@@ -459,6 +467,12 @@ body{
     }
     .img{
         margin-left: 60%;
+        .img-fluid{ 
+            position: absolute;
+            bottom: 0;
+            right: 0;
+            
+        }
     }
     
 }
@@ -467,6 +481,7 @@ body{
 
 #partner2{
     .partner_slider2{
+        padding: 80px 0;
         display: flex;
         .item1{
             height: 56px;
@@ -523,17 +538,16 @@ body{
     .post{
         border: 0;
         padding: 30% 0;
+        transform: translate(0px, -10px);
     }
-    img{
-        padding: 0 5%;
+    .listads{
+        display: flex;
+        justify-content: space-evenly;
+        .content1{
+            
+        }
+    
     }
-    img{
-        padding-top: 10%;
-    }
-    .content1{
-        padding-left: 5%;
-    }
-
 }
 
 #finalpage_site{

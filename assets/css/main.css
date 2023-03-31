@@ -394,10 +394,11 @@ body .btn.btn-gradient i {
   margin-left: 55%;
   padding: 10% 0;
 }
-
-#imglines {
+#content_site1 .imglines .img-fluid {
   position: absolute;
-  margin-bottom: auto;
+  bottom: 0;
+  left: 0;
+  transform: translate(0%, -100%);
 }
 
 #service_site {
@@ -438,10 +439,18 @@ body .btn.btn-gradient i {
   padding-top: 64px;
 }
 
+.imgbetween {
+  padding: 80px 0;
+}
+.imgbetween .img-fluid {
+  margin-left: 70%;
+  position: absolute;
+}
+
 #casestudy_site {
   padding: 80px 0;
   background-color: #F5F5F5;
-  position: relative;
+  position: revert;
 }
 #casestudy_site .title {
   margin-bottom: 12px;
@@ -474,18 +483,17 @@ body .btn.btn-gradient i {
 #casestudy_site .seeall img {
   transform: translate(95px, -45px);
 }
-#casestudy_site img {
-  padding: 0 5%;
+#casestudy_site .list {
+  display: flex;
+  justify-content: space-evenly;
 }
-#casestudy_site img {
-  padding-top: 10%;
-}
-#casestudy_site h3 {
-  padding-left: 5%;
-  padding-top: 5%;
+#casestudy_site .list .item {
+  display: flex;
+  flex-direction: column;
 }
 
 #result {
+  position: relative;
   padding: 80px 0 0 0;
 }
 #result .title {
@@ -522,8 +530,14 @@ body .btn.btn-gradient i {
 #result .img {
   margin-left: 60%;
 }
+#result .img .img-fluid {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+}
 
 #partner2 .partner_slider2 {
+  padding: 80px 0;
   display: flex;
 }
 #partner2 .partner_slider2 .item1 {
@@ -576,17 +590,12 @@ body .btn.btn-gradient i {
 #blog_site .post {
   border: 0;
   padding: 30% 0;
+  transform: translate(0px, -10px);
 }
-#blog_site img {
-  padding: 0 5%;
+#blog_site .listads {
+  display: flex;
+  justify-content: space-evenly;
 }
-#blog_site img {
-  padding-top: 10%;
-}
-#blog_site .content1 {
-  padding-left: 5%;
-}
-
 #finalpage_site {
   padding: 80px 0;
 }
