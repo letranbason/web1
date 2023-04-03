@@ -58,10 +58,11 @@ $clGray: #F5F5F5;
 $clBody: #506271;
 $clWhite: #FFFF;
 
-
+.fs-14{
+    font-size: 14px;
+}
 .fs-60{
     font-size: 60px;
-    line-height: 76px;
 }
 .fs-20{
     font-size: 20px;
@@ -112,4 +113,10 @@ $clWhite: #FFFF;
 }
 .lh-36{
     line-height: 36px;
+}
+.lh-24{
+    line-height: 24px;
+}
+.lh-22{
+    line-height: 22px;
 }
